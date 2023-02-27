@@ -38,6 +38,7 @@ namespace TestApp.Controllers
         }
 
 
+        // this commit should trigger the release
         [HttpGet("DbTest")]
         public async Task<IActionResult> DbTest()
         {
